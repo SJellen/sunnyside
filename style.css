@@ -203,12 +203,28 @@ header .header-container-right ul li:last-child:hover {
   font-size: 1.09rem;
   border: 1px solid red;
   line-height: 2;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 
 .top-container .top-left-container span a {
-  border: 1px solid red;
-  color: red;
+  z-index: 1;
+  position: relative;
+  color: #23303e;
+  font-family: 'Fraunces', serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-left: .5rem;
+}
+
+.top-container .top-left-container span .highlight {
+  z-index: 0;
+  position: relative;
+  width: 130px;
+  height: 10px;
+  background: #fad400;
+  border-radius: 25px;
+  margin-top: -7.5px;
 }
 
 .top-container .top-right-container {
@@ -277,12 +293,29 @@ header .header-container-right ul li:last-child:hover {
   font-size: 1.09rem;
   border: 1px solid red;
   line-height: 2;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 
 .middle-container .middle-right-container span a {
-  border: 1px solid red;
-  color: red;
+  z-index: 1;
+  position: relative;
+  color: #23303e;
+  font-family: 'Fraunces', serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-left: .5rem;
+  background-color: transparent;
+}
+
+.middle-container .middle-right-container span .highlight {
+  z-index: 0;
+  position: relative;
+  width: 130px;
+  height: 10px;
+  background: #fe7867;
+  border-radius: 25px;
+  margin-top: -7.5px;
 }
 
 .bottom-container {
