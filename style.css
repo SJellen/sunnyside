@@ -121,8 +121,198 @@ header .header-container-right ul li:last-child:hover {
 }
 
 .hero-text-box {
-  border: 1px solid red;
-  width: 500px;
+  width: 750px;
   height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: -1.25rem;
+}
+
+.hero-text-box h1 {
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-family: 'Fraunces', serif;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  letter-spacing: 7.5px;
+}
+
+.hero-text-box span {
+  margin: 1rem auto 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero-text-box img {
+  display: block;
+}
+
+.top-container {
+  width: 100%;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.top-container .top-left-container {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top-container .top-left-container span {
+  width: 450px;
+  height: 300px;
+  border: 1px solid blue;
+}
+
+.top-container .top-left-container span h2 {
+  font-family: 'Fraunces', serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-top: -.5rem;
+  color: #23303e;
+}
+
+.top-container .top-left-container span p {
+  color: #818498;
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.09rem;
+  border: 1px solid red;
+  line-height: 2;
+  padding-bottom: 1rem;
+}
+
+.top-container .top-left-container span a {
+  border: 1px solid red;
+  color: red;
+}
+
+.top-container .top-right-container {
+  width: 50%;
+  height: 100%;
+  background-image: url(./images/desktop/image-transform.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: #FFD301;
+}
+
+.middle-container {
+  width: 100%;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.middle-container .middle-left-container {
+  width: 50%;
+  height: 100%;
+  background-image: url(./images/desktop/image-stand-out.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: #FE7364;
+}
+
+.middle-container .middle-right-container {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.middle-container .middle-right-container span {
+  width: 450px;
+  height: 300px;
+  border: 1px solid blue;
+}
+
+.middle-container .middle-right-container span h2 {
+  font-family: 'Fraunces', serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-top: -.5rem;
+  color: #23303e;
+}
+
+.middle-container .middle-right-container span p {
+  color: #818498;
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.09rem;
+  border: 1px solid red;
+  line-height: 2;
+  padding-bottom: 1rem;
+}
+
+.middle-container .middle-right-container span a {
+  border: 1px solid red;
+  color: red;
+}
+
+.bottom-container {
+  width: 100%;
+  height: 600px;
+  border: 1px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bottom-container .bottom-left-container {
+  width: 50%;
+  height: 100%;
+  border: 1px solid gold;
+  background-image: url(./images/desktop/image-graphic-design.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: #95D5C5;
+}
+
+.bottom-container .bottom-right-container {
+  width: 50%;
+  height: 100%;
+  border: 1px solid green;
+  background-image: url(./images/desktop/image-photography.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: #63CBFE;
 }
 /*# sourceMappingURL=style.css.map */
