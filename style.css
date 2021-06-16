@@ -6,11 +6,99 @@ body, html {
 }
 
 header {
-  border: 1px solid red;
+  position: absolute;
+  width: 100%;
+  height: 56px;
+  margin-top: 33px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: red;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: transparent;
+}
+
+header .header-container-left {
+  margin-left: 39px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .header-container-left img {
+  width: 170px;
+  height: auto;
+}
+
+header .header-container-right {
+  margin-right: 47px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-family: 'Barlow', sans-serif;
+}
+
+header .header-container-right ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 450px;
+}
+
+header .header-container-right ul li {
+  display: inline;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .header-container-right ul li:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  color: black;
+  padding: 18px 0px;
+  border-radius: 40px;
+  width: 139px;
+  font-family: 'Fraunces', serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+header .header-container-right ul li:last-child:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .hero-container {

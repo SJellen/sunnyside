@@ -23,13 +23,62 @@ body, html {
 }
 
 header {
-    // border: 1px solid red;
-    // margin-bottom: -137px;
-    border: 1px solid red;
+    position: absolute;
+    width: 100%;
+    height: 56px;
+    margin-top: 33px;
     display: flex;
-    background-color: red;
-
+    justify-content: space-between;
+    background-color: transparent;
+    .header-container-left {
+        margin-left: 39px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 170px;
+            height: auto;
+        }
+    }
+    .header-container-right {
+        margin-right: 47px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $white;
+        font-family: 'Barlow', sans-serif;
+        ul {
+            display: flex;
+            justify-content: space-between;
+            width: 450px;
+            li {
+                display: inline;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            li:last-child {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: $white;
+                color: black;
+                padding: 18px 0px;
+                border-radius: 40px;
+                width: 139px;
+                font-family: 'Fraunces', serif;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+            li:last-child:hover {
+                cursor: pointer;
+                color: $white;
+                background-color: hsla(0, 0%, 100%, .2);
+            }
+        }
+    }
 }
+
 
 .hero-container {
     width: 1440px;
