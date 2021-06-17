@@ -531,4 +531,75 @@ header .header-container-right ul li:last-child:hover {
 .bottom-image-container-desktop img {
   width: 25%;
 }
+
+footer {
+  background-color: #90D4C6;
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .svg-container {
+  border: 1px solid red;
+  width: 200px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footer-links {
+  width: 300px;
+  border: 1px solid gold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .footer-links li {
+  display: inline;
+  font-family: 'Barlow', sans-serif;
+  color: #2C7566;
+  letter-spacing: 1px;
+}
+
+footer .footer-links li:hover {
+  cursor: pointer;
+  color: white;
+}
+
+footer .footer-contacts {
+  border: 1px solid grey;
+  list-style: none;
+}
+
+footer .footer-contacts li {
+  display: inline;
+  color: #2C7566;
+}
+
+footer .footer-contacts li:hover {
+  cursor: pointer;
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */
