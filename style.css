@@ -348,23 +348,42 @@ header .header-container-right ul li:last-child:hover {
   background-position: center;
   background-size: contain;
   background-color: #95D5C5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .bottom-container .bottom-left-container span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 300px;
-  border: 1px solid red;
-  width: 100%;
-  height: 300px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  width: 400px;
+  height: 200px;
+  color: #25564b;
+}
+
+.bottom-container .bottom-left-container span h3 {
+  font-size: 1.85rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-family: 'Fraunces';
+}
+
+.bottom-container .bottom-left-container span p {
+  margin: 0 auto;
+  width: 350px;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 500;
 }
 
 .bottom-container .bottom-right-container {
@@ -375,22 +394,41 @@ header .header-container-right ul li:last-child:hover {
   background-position: center;
   background-size: contain;
   background-color: #63CBFE;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .bottom-container .bottom-right-container span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 300px;
-  border: 1px solid red;
-  width: 100%;
-  height: 300px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  width: 400px;
+  height: 200px;
+  color: #19536b;
+}
+
+.bottom-container .bottom-right-container span h3 {
+  font-size: 1.85rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-family: 'Fraunces';
+}
+
+.bottom-container .bottom-right-container span p {
+  margin: 0 auto;
+  width: 350px;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 500;
 }
 /*# sourceMappingURL=style.css.map */
