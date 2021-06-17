@@ -330,13 +330,11 @@ header {
 .testimonial-container {
     width: 100%;
     height: 775px;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     .testimonial-title {
-        color: red;
         margin-top: 0;
         text-transform: uppercase;
         font-family: 'Fraunces', serif;
@@ -345,13 +343,11 @@ header {
         letter-spacing: 4px;
     }
     .testimonial-flex-container {
-        border: 1px solid green;
         width: 90%;
         display: flex;
         margin-top: 3.5rem;
         justify-content: space-evenly;
         .box {
-            border: 1px solid purple;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -362,15 +358,29 @@ header {
             p {
                 font-family: 'Barlow', sans-serif;
                 text-align: center;
+                line-height: 1.75;
                 margin-top: 3.5rem;
-                width: 360px;
+                width: 340px;
                 height: 96px;
-                border: 1px solid red;
                 color: #5B636D;
-                font-size: 18px;
+                font-size: 1.05rem;
+            }
+            div {
+                text-align: center;
+                width: 200px;
+                margin-top: 3rem;
+                h4 {
+                    color: #24303E;
+                    margin: 0 auto;
+                    font-size: 1.25rem;
+                    font-weight: 700;
+                }
+                h5 {
+                    margin-top: .5rem;
+                    color: #A7AAAD;
+                } 
             }
         }
-
     }
 }
 
