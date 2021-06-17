@@ -384,3 +384,15 @@ header {
     }
 }
 
+.bottom-image-container-mobile {
+    display: none;
+}
+
+.bottom-image-container-desktop {
+    width: 100%;
+    display: flex;
+    img {
+        width: 25%;
+    }
+}
+

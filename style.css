@@ -516,4 +516,19 @@ header .header-container-right ul li:last-child:hover {
   margin-top: .5rem;
   color: #A7AAAD;
 }
+
+.bottom-image-container-mobile {
+  display: none;
+}
+
+.bottom-image-container-desktop {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bottom-image-container-desktop img {
+  width: 25%;
+}
 /*# sourceMappingURL=style.css.map */
