@@ -530,6 +530,38 @@ footer {
 
         }
     }
+
+    .testimonial-container {
+        .testimonial-flex-container {
+            width: 100%;
+            .box {
+                width: 325px;
+                p {
+                    width: auto;
+                }
+            }
+        }
+    }
+  }
+
+  @media screen and (max-width: 1050px) {
+      .testimonial-container {
+          height: auto;
+          .testimonial-title {
+              margin: 5rem auto 2rem auto;
+          }
+          .testimonial-flex-container {
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              padding-bottom: 4rem;
+              .box {
+                  margin: 2rem auto;
+                  width: 400px;
+              }
+          }
+
+      }
   }
 
 

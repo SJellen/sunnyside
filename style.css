@@ -730,6 +730,41 @@ footer .footer-content-container .footer-contacts li:hover {
   .middle-container .middle-right-container span p {
     font-size: 1rem;
   }
+  .testimonial-container .testimonial-flex-container {
+    width: 100%;
+  }
+  .testimonial-container .testimonial-flex-container .box {
+    width: 325px;
+  }
+  .testimonial-container .testimonial-flex-container .box p {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .testimonial-container {
+    height: auto;
+  }
+  .testimonial-container .testimonial-title {
+    margin: 5rem auto 2rem auto;
+  }
+  .testimonial-container .testimonial-flex-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 4rem;
+  }
+  .testimonial-container .testimonial-flex-container .box {
+    margin: 2rem auto;
+    width: 400px;
+  }
 }
 
 @media screen and (max-width: 950px) {
