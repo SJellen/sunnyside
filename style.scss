@@ -820,6 +820,21 @@ footer {
         }
   }
 
+  .bottom-image-container-desktop {
+      display: none;
+  }
+
+  .bottom-image-container-mobile {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      img {
+          width: 50%;
+          height: auto;
+      }
+
+  }
+
 
   }
 
