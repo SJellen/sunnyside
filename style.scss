@@ -39,6 +39,11 @@ header {
             width: 170px;
             height: auto;
         }
+        .hamburger {
+            color: white;
+            font-size: 2rem;
+            display: none;
+        }
     }
     .header-container-right {
         margin-right: 47px;
@@ -784,8 +789,6 @@ footer {
         }
       }
 
-
-
     .bottom-container {
         flex-direction: column;
         .bottom-left-container {
@@ -832,9 +835,7 @@ footer {
           width: 50%;
           height: auto;
       }
-
   }
-
 
   }
 
@@ -843,7 +844,7 @@ footer {
  
 
 
-  @media screen and (max-width: 650px) {
+@media screen and (max-width: 650px) {
     header {
         .header-container-right {
             ul {
@@ -851,5 +852,26 @@ footer {
                width: 375px;
             }
         }  
+    }
+  }
+
+
+@media screen and (max-width: 575px) {
+    header {
+        .header-container-right {
+            ul {
+               justify-content: space-around;
+               width: 375px;
+               display: none;
+            }
+        } 
+        .header-container-left {
+            width: 100%;
+            justify-content: space-between;
+            .hamburger {
+                display: block;
+            }
+        }
+
     }
   }

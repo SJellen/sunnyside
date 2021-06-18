@@ -37,6 +37,12 @@ header .header-container-left img {
   height: auto;
 }
 
+header .header-container-left .hamburger {
+  color: white;
+  font-size: 2rem;
+  display: none;
+}
+
 header .header-container-right {
   margin-right: 47px;
   display: -webkit-box;
@@ -1037,6 +1043,24 @@ footer .footer-content-container .footer-contacts li:hover {
     -ms-flex-pack: distribute;
         justify-content: space-around;
     width: 375px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  header .header-container-right ul {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 375px;
+    display: none;
+  }
+  header .header-container-left {
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header .header-container-left .hamburger {
+    display: block;
   }
 }
 /*# sourceMappingURL=style.css.map */
