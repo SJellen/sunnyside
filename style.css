@@ -165,7 +165,7 @@ header .header-container-right ul li:last-child:hover {
 
 .top-container {
   width: 100%;
-  height: 600px;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -173,7 +173,7 @@ header .header-container-right ul li:last-child:hover {
 
 .top-container .top-left-container {
   width: 50%;
-  height: 100%;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -242,7 +242,7 @@ header .header-container-right ul li:last-child:hover {
 
 .top-container .top-right-container {
   width: 50%;
-  height: auto;
+  height: 100%;
   background-color: #FFD301;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -266,7 +266,7 @@ header .header-container-right ul li:last-child:hover {
 
 .middle-container {
   width: 100%;
-  height: 600px;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -297,7 +297,7 @@ header .header-container-right ul li:last-child:hover {
 
 .middle-container .middle-right-container {
   width: 50%;
-  height: 100%;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -367,7 +367,7 @@ header .header-container-right ul li:last-child:hover {
 
 .bottom-container {
   width: 100%;
-  height: 600px;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -684,6 +684,54 @@ footer .footer-content-container .footer-contacts li:hover {
   .hero-text-box h1 {
     font-size: 3rem;
   }
+  .top-container .top-left-container span {
+    border: 1px solid red;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 80%;
+  }
+  .top-container .top-left-container span .highlight {
+    margin: -.5rem auto 0 auto;
+  }
+  .top-container .top-left-container span h2 {
+    font-size: 2rem;
+  }
+  .top-container .top-left-container span p {
+    font-size: 1rem;
+  }
+  .middle-container .middle-right-container span {
+    border: 1px solid red;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 80%;
+  }
+  .middle-container .middle-right-container span .highlight {
+    margin: -.5rem auto 0 auto;
+  }
+  .middle-container .middle-right-container span h2 {
+    font-size: 2rem;
+  }
+  .middle-container .middle-right-container span p {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (max-width: 950px) {
@@ -712,6 +760,60 @@ footer .footer-content-container .footer-contacts li:hover {
   .hero-text-box img {
     height: 75px;
     width: auto;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .top-container .top-left-container span {
+    border: 1px solid green;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 90%;
+    height: auto;
+  }
+  .top-container .top-left-container span .highlight {
+    margin: -.5rem auto 0 auto;
+  }
+  .top-container .top-left-container span h2 {
+    font-size: 1.75rem;
+  }
+  .top-container .top-left-container span p {
+    font-size: .9rem;
+    margin-top: -1rem;
+    border: 1px solid purple;
+  }
+  .middle-container .middle-right-container span {
+    border: 1px solid green;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 90%;
+    height: auto;
+  }
+  .middle-container .middle-right-container span .highlight {
+    margin: -.5rem auto 0 auto;
+  }
+  .middle-container .middle-right-container span h2 {
+    font-size: 1.75rem;
+  }
+  .middle-container .middle-right-container span p {
+    font-size: .9rem;
+    margin-top: -1rem;
+    border: 1px solid purple;
   }
 }
 
