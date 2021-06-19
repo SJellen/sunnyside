@@ -63,6 +63,10 @@ header {
                 justify-content: center;
                 align-items: center;
             }
+            li:hover {
+                   cursor: pointer;
+                   color: #24303E; 
+               }
             li:last-child {
                 display: flex;
                 justify-content: center;
@@ -876,9 +880,9 @@ footer {
     }
     header {
         .header-container-right {
+            z-index: 9;
             display: none;
             background-color: white;
-            border: 1px solid gold;
             width: 330px;
             height: 330px;
             position: absolute;
@@ -890,10 +894,24 @@ footer {
                justify-content: space-around;
                flex-direction: column;
                width: 100%;
+               height: 90%;
                padding: 0;
                color: #808397;
-               border: 1px solid red;
-               
+               li:last-child {
+                margin: 0 auto;
+                background-color: #FBD600;
+                color: black;
+                padding: 18px 0px;
+                border-radius: 40px;
+                width: 139px;
+                font-family: 'Fraunces', serif;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+            li:last-child:hover {
+                cursor: pointer;
+                background-color: #FBD600;
+            }
                
             }
 
