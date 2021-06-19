@@ -1065,11 +1065,11 @@ footer .footer-content-container .footer-contacts li:hover {
     display: none;
     background-color: white;
     border: 1px solid gold;
-    width: 320px;
-    height: 270px;
+    width: 330px;
+    height: 330px;
     position: absolute;
     top: 5rem;
-    right: 5%;
+    right: 0%;
     padding-top: 15px;
   }
   header .header-container-right ul {
@@ -1079,9 +1079,21 @@ footer .footer-content-container .footer-contacts li:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 375px;
+    width: 100%;
+    padding: 0;
     color: #808397;
     border: 1px solid red;
+  }
+  header .header-container-right::before {
+    position: absolute;
+    content: "";
+    top: -9%;
+    right: -1px;
+    width: 10%;
+    height: 10%;
+    background: white;
+    -webkit-clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+            clip-path: polygon(100% 0, 0% 100%, 100% 100%);
   }
   header .open {
     display: block;

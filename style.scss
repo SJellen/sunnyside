@@ -879,16 +879,18 @@ footer {
             display: none;
             background-color: white;
             border: 1px solid gold;
-            width: 320px;
-            height: 270px;
+            width: 330px;
+            height: 330px;
             position: absolute;
             top: 5rem;
-            right: 5%;
+            right: 0%;
             padding-top: 15px;
+            
             ul {
                justify-content: space-around;
                flex-direction: column;
-               width: 375px;
+               width: 100%;
+               padding: 0;
                color: #808397;
                border: 1px solid red;
                
@@ -896,6 +898,17 @@ footer {
             }
 
         } 
+
+        .header-container-right::before {
+            position: absolute;
+            content: "";
+            top: -9%;
+            right: -1px;
+            width: 10%;
+            height: 10%;
+            background: white;
+            clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+          }
         .open {
             display: block;
         }
