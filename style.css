@@ -1134,6 +1134,9 @@ footer .footer-content-container .footer-contacts li:hover {
 }
 
 @media screen and (max-width: 450px) {
+  html, body {
+    overflow-x: hidden;
+  }
   header .header-container-left {
     width: 90%;
   }
@@ -1164,6 +1167,74 @@ footer .footer-content-container .footer-contacts li:hover {
   }
   .bottom-container .bottom-right-container span p {
     width: 80%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .header-container-right {
+    border: 1px solid red;
+    width: 90%;
+    left: 1rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .header-container-right {
+    border: 1px solid red;
+    max-width: 90%;
+  }
+  .hero-container .hero-text-box h1 {
+    font-size: 1.95rem;
+  }
+  .bottom-container .bottom-left-container span {
+    margin-bottom: 0;
+  }
+  .bottom-container .bottom-left-container span p {
+    margin-top: -2rem;
+    padding: 0;
+    width: 100%;
+  }
+  .bottom-container .bottom-right-container span {
+    margin-bottom: 0;
+    height: auto;
+  }
+  .bottom-container .bottom-right-container span p {
+    margin-top: -2rem;
+    padding: 0;
+    width: 100%;
+  }
+  .testimonial-container .testimonial-title {
+    width: 75%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .bottom-container .bottom-left-container span {
+    width: 90%;
+  }
+  .bottom-container .bottom-left-container span h3 {
+    font-size: 1.5rem;
+  }
+  .bottom-container .bottom-left-container span p {
+    font-size: 1rem;
+    line-height: 1.75;
+  }
+  .bottom-container .bottom-right-container span {
+    width: 90%;
+  }
+  .bottom-container .bottom-right-container span h3 {
+    font-size: 1.5rem;
+  }
+  .bottom-container .bottom-right-container span p {
+    font-size: 1rem;
+    line-height: 1.75;
+  }
+  .testimonial-container .testimonial-flex-container .box {
+    height: auto;
+  }
+  .testimonial-container .testimonial-flex-container .box p {
+    width: 90%;
   }
 }
 /*# sourceMappingURL=style.css.map */
