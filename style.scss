@@ -889,7 +889,7 @@ footer {
             top: 5rem;
             right: 0%;
             padding-top: 15px;
-            
+            border: 1px solid white;
             ul {
                justify-content: space-around;
                flex-direction: column;
@@ -921,7 +921,7 @@ footer {
             position: absolute;
             content: "";
             top: -9%;
-            right: -1px;
+            right: -.5px;
             width: 10%;
             height: 10%;
             background: white;
@@ -942,6 +942,57 @@ footer {
         }
 
     }
+  }
+
+  @media screen and (max-width: 450px) {
+      html, body {
+        //   overflow-x: hidden;
+      }
+      header {
+          .header-container-left {
+              width: 90%;
+          }
+      }
+      .hero-container {
+          .hero-text-box {
+              width: 90%;
+              h1 {
+                width: auto;
+                letter-spacing: 2px;
+              }
+          }
+      }
+      .testimonial-container {
+          .testimonial-title {
+              font-size: 1.2rem;
+          }
+          .testimonial-flex-container {
+              .box {
+                  width: auto;
+              p {
+                  width: 70%;
+              }
+            }
+          } 
+      }
+      .bottom-container {
+          .bottom-left-container {
+              span {
+                margin-bottom: 2rem;
+                p {
+                    width: 80%;
+                }
+              }
+          }
+          .bottom-right-container {
+            span {
+                margin-bottom: 2rem;
+                p {
+                    width: 80%;
+                }
+            }
+        }
+      }
   }
 
   

@@ -1076,6 +1076,7 @@ footer .footer-content-container .footer-contacts li:hover {
     top: 5rem;
     right: 0%;
     padding-top: 15px;
+    border: 1px solid white;
   }
   header .header-container-right ul {
     -ms-flex-pack: distribute;
@@ -1108,7 +1109,7 @@ footer .footer-content-container .footer-contacts li:hover {
     position: absolute;
     content: "";
     top: -9%;
-    right: -1px;
+    right: -.5px;
     width: 10%;
     height: 10%;
     background: white;
@@ -1129,6 +1130,40 @@ footer .footer-content-container .footer-contacts li:hover {
   }
   header .header-container-left .hamburger:hover {
     cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  header .header-container-left {
+    width: 90%;
+  }
+  .hero-container .hero-text-box {
+    width: 90%;
+  }
+  .hero-container .hero-text-box h1 {
+    width: auto;
+    letter-spacing: 2px;
+  }
+  .testimonial-container .testimonial-title {
+    font-size: 1.2rem;
+  }
+  .testimonial-container .testimonial-flex-container .box {
+    width: auto;
+  }
+  .testimonial-container .testimonial-flex-container .box p {
+    width: 70%;
+  }
+  .bottom-container .bottom-left-container span {
+    margin-bottom: 2rem;
+  }
+  .bottom-container .bottom-left-container span p {
+    width: 80%;
+  }
+  .bottom-container .bottom-right-container span {
+    margin-bottom: 2rem;
+  }
+  .bottom-container .bottom-right-container span p {
+    width: 80%;
   }
 }
 /*# sourceMappingURL=style.css.map */
