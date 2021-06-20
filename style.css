@@ -201,12 +201,12 @@ header .header-container-right ul li:last-child:hover {
           align-items: center;
 }
 
-.top-container .top-left-container span {
+.top-container .top-left-container div {
   width: 450px;
   height: 300px;
 }
 
-.top-container .top-left-container span h2 {
+.top-container .top-left-container div h2 {
   font-family: 'Fraunces', serif;
   font-weight: bold;
   font-size: 2.5rem;
@@ -214,7 +214,7 @@ header .header-container-right ul li:last-child:hover {
   color: #23303e;
 }
 
-.top-container .top-left-container span p {
+.top-container .top-left-container div p {
   color: #818498;
   font-family: 'Barlow', sans-serif;
   font-size: 1.09rem;
@@ -222,7 +222,7 @@ header .header-container-right ul li:last-child:hover {
   padding-bottom: 2rem;
 }
 
-.top-container .top-left-container span a {
+.top-container .top-left-container div a {
   z-index: 1;
   position: relative;
   color: #23303e;
@@ -233,11 +233,11 @@ header .header-container-right ul li:last-child:hover {
   margin-left: .5rem;
 }
 
-.top-container .top-left-container span a:hover {
+.top-container .top-left-container div a:hover {
   cursor: pointer;
 }
 
-.top-container .top-left-container span .highlight {
+.top-container .top-left-container div .highlight {
   z-index: 0;
   position: relative;
   width: 130px;
@@ -247,7 +247,7 @@ header .header-container-right ul li:last-child:hover {
   margin-top: -7.5px;
 }
 
-.top-container .top-left-container span .highlight:hover {
+.top-container .top-left-container div .highlight:hover {
   cursor: pointer;
   background: #fad400;
 }
@@ -696,7 +696,7 @@ footer .footer-content-container .footer-contacts li:hover {
   .hero-text-box h1 {
     font-size: 3rem;
   }
-  .top-container .top-left-container span {
+  .top-container .top-left-container div {
     text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -710,13 +710,13 @@ footer .footer-content-container .footer-contacts li:hover {
             justify-content: center;
     width: 80%;
   }
-  .top-container .top-left-container span .highlight {
+  .top-container .top-left-container div .highlight {
     margin: -.5rem auto 0 auto;
   }
-  .top-container .top-left-container span h2 {
+  .top-container .top-left-container div h2 {
     font-size: 2rem;
   }
-  .top-container .top-left-container span p {
+  .top-container .top-left-container div p {
     font-size: 1rem;
   }
   .middle-container .middle-right-container span {
@@ -817,7 +817,7 @@ footer .footer-content-container .footer-contacts li:hover {
 }
 
 @media screen and (max-width: 850px) {
-  .top-container .top-left-container span {
+  .top-container .top-left-container div {
     text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -832,13 +832,13 @@ footer .footer-content-container .footer-contacts li:hover {
     width: 90%;
     height: auto;
   }
-  .top-container .top-left-container span .highlight {
+  .top-container .top-left-container div .highlight {
     margin: -.5rem auto 0 auto;
   }
-  .top-container .top-left-container span h2 {
+  .top-container .top-left-container div h2 {
     font-size: 1.75rem;
   }
-  .top-container .top-left-container span p {
+  .top-container .top-left-container div p {
     font-size: .9rem;
     margin-top: -1rem;
   }
@@ -949,11 +949,11 @@ footer .footer-content-container .footer-contacts li:hover {
     width: 100%;
     height: 450px;
   }
-  .top-container .top-left-container span {
+  .top-container .top-left-container div {
     width: 75%;
     height: 300px;
   }
-  .top-container .top-left-container span p {
+  .top-container .top-left-container div p {
     margin-top: 0;
   }
   .top-container .top-right-container {

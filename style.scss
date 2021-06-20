@@ -143,7 +143,7 @@ header {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        span {
+        div {
             width: 450px;
             height: 300px;
             h2 {
@@ -500,7 +500,7 @@ footer {
     }
     .top-container {
         .top-left-container {
-            span {
+            div {
                 text-align: center;
                 display: flex;
                 flex-direction: column;
@@ -622,7 +622,7 @@ footer {
   @media screen and (max-width: 850px) {
     .top-container {
         .top-left-container {
-            span {
+            div {
                 text-align: center;
                 display: flex;
                 flex-direction: column;
@@ -753,7 +753,7 @@ footer {
         .top-left-container {
             width: 100%;
             height: 450px;
-            span {
+            div {
                 width: 75%;
                 height: 300px;
                 p {
