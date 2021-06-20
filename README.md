@@ -29,13 +29,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenShot.png)
+![](https://raw.githubusercontent.com/SJellen/sunnyside/main/ScreenShot.png)
 
 
 ### Links
 
 - Solution URL: [repo](https://sunnyside-mu.vercel.app/)
-- Live Site URL: [repo](https://github.com/SJellen/sunnyside)
+- Live Site URL: [live](https://github.com/SJellen/sunnyside)
 
 ## My process
 
