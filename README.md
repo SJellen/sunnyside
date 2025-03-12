@@ -25,8 +25,6 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [repo](https://sunnyside-mu.vercel.app/)
-- Live Site URL: [live](https://github.com/SJellen/sunnyside)
 ### Built with
 
 - Semantic HTML5 markup
@@ -38,11 +36,10 @@ Users should be able to:
 
 ### Useful resources
 
-- [Pixel Snap 2](https://getpixelsnap.com/) - The best tool for turning designs into code.
 
 ## Author
 
 - Website - [Portfolio](https://scottjellen.com/)
 - Github - [SJellen](https://github.com/SJellen)
-- Twitter - [@ScottJellen](https://www.twitter.com/ScottJellen)
+
 
